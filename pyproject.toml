@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lru-dict"
-version = "1.4.0"
+version = "1.4.1"
 description = "An Dict like LRU container."
 authors = [
     {name = "Amit Dev"},
