@@ -17,7 +17,7 @@ jobs:
           - os: macos
             runs-on: macos-latest
           - os: ios
-            runs-on: macos-latest
+            runs-on: macos-14
           - os: android
             runs-on: ubuntu-latest
 
@@ -36,7 +36,7 @@ jobs:
             sudo udevadm trigger --name-match=kvm
       # Used to host cibuildwheel
       - name: Build wheels
-        uses: pypa/cibuildwheel@v3.1.2
+        uses: pypa/cibuildwheel@v3.1.4
         env:
           # configure cibuildwheel to build native archs ('auto'), and some emulated ones
           CIBW_PLATFORM: ${{ matrix.os }}
