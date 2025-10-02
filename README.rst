@@ -4,6 +4,10 @@
 .. image:: https://github.com/amitdev/lru-dict/actions/workflows/build-and-deploy.yml/badge.svg
     :target: https://github.com/amitdev/lru-dict/actions/workflows/build-and-deploy.yml
 
+.. image:: https://img.shields.io/badge/maintainers-wanted-red.svg
+
+**Note**: This project is stable and production ready, but looking for a lead maintainer. Preferably someone who uses this library and made contributions to it.
+
 LRU Dict
 ========
 
